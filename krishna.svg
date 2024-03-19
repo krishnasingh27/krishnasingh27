@@ -15,33 +15,32 @@
     .firework {
       fill: #FFD700; /* Gold color */
       opacity: 0;
-      animation: explode 2s ease forwards;
+      animation: explode 2s ease infinite;
       transform-origin: center;
     }
     @keyframes explode {
-      0% { transform: scale(0); opacity: 0; }
+      0%, 100% { transform: scale(0); opacity: 0; }
       50% { opacity: 1; }
-      100% { transform: scale(1); opacity: 0; }
     }
   </style>
   
   <!-- Krishna Text -->
-  <text x="400" y="100">Krishna</text>
+  <text x="350" y="100">Krishna</text>
   
   <!-- Singh Text -->
-  <text x="600" y="100">Singh</text>
+  <text x="550" y="100">Singh</text>
   
   <!-- Fireworks -->
   <!-- Firework 1 -->
-  <circle class="firework" cx="200" cy="120" r="5">
+  <circle class="firework" cx="150" cy="120" r="5">
     <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
   </circle>
   <!-- Firework 2 -->
-  <circle class="firework" cx="600" cy="120" r="5">
+  <circle class="firework" cx="450" cy="120" r="5">
     <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
   </circle>
   <!-- Firework 3 -->
-  <circle class="firework" cx="400" cy="120" r="5">
+  <circle class="firework" cx="750" cy="120" r="5">
     <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="1s"/>
   </circle>
 </svg>
