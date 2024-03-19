@@ -1,7 +1,7 @@
 <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
   <style>
     text {
-      font-family: 'Great Vibes', cursive; /* Changed font to Great Vibes */
+      font-family: 'Segoe Script', cursive; /* Changed font to Great Vibes */
       font-size: 64px;
       fill: #87CEEB; /* Changed color to sky blue */
       opacity: 0;
