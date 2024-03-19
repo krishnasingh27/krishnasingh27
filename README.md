@@ -1,16 +1,26 @@
-👋 Hey there! I'm Krishna Singh Chouhan, a Flutter enthusiast on a journey to craft delightful mobile experiences!
+![Krishna](https://raw.githubusercontent.com/krishnasingh27/krishnasingh27/main/krishna.svg)
 
-🚀 Launching into the world of Flutter with boundless curiosity and a passion for pixel-perfect designs. I thrive on turning ideas into interactive masterpieces and pushing the boundaries of what's possible in mobile app development.
+<p align="center">
+Whatever I do, I do with perfection, Takes work ethics very seriously, Launching into the world of Flutter with boundless curiosity and a passion for pixel-perfect designs. I thrive on turning ideas into interactive masterpieces and pushing the boundaries of what's possible in mobile app development.
+<br><br>
+  · <a href="https://drive.google.com/file/d/1mJ2o1_E-qxPikyO8HlAp_O4fyl8fsHWE/view?usp=drive_link">Resume</a>
+ · 
+ <p align="center">
+ <a href="https://twitter.com/xkrishna27x"><img src="https://img.shields.io/twitter/follow/xKrishna27x" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://www.linkedin.com/in/krishna-singh-chouhan-bb5782265/"><img src="https://img.shields.io/badge/Krishna%20Singh%20Chouhan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkrishna-singh-chouhan-bb5782265%2F" /></a>&nbsp;&nbsp;&nbsp;&nbsp
 
-💡 With a knack for creative problem-solving, I'm constantly dreaming up innovative UI designs and refining my coding skills in Dart and Flutter. From smooth animations to intuitive user interfaces, I'm all about making apps that leave a lasting impression.
+<br>
+<br>
 
-🌱 As a lifelong learner, I'm eagerly soaking up knowledge from the Flutterverse and beyond. Whether it's tinkering with new widgets or exploring emerging trends, I'm always up for an adventure in code.
 
-🔧 Equipped with:
-   - Dart & Flutter wizardry
-   - Git version control
-   - A sprinkle of design magic
+<p align="center">
+ <i>Take a look at my repositories and let's get in touch!</i>
+<p  align="center">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=krishnasingh27"/>       
+</p>
 
-🌟 Seeking opportunities to collaborate, contribute, and connect with fellow Flutteristas. Let's build something extraordinary together!
+</p>
 
-📫 Slide into my DMs on GitHub or connect with me on LinkedIn! Whether it's swapping Flutter tips or dreaming up the next big app idea, I'm all ears. Let's create something unforgettable!
+![Krishna](https://raw.githubusercontent.com/krishnasingh27/krishnasingh27/main/bottom_header.svg)
+<br>
+</p>
