@@ -3,21 +3,30 @@
     text {
       font-family: Arial, sans-serif;
       font-size: 48px;
-      fill: black;
+      fill: #FFA500;
       opacity: 0;
-      animation: fadeIn 1s forwards;
+      animation: bounceIn 0.75s ease forwards;
     }
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
+    @keyframes bounceIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      50% {
+        transform: translateY(20%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
-    #K { animation-delay: 0.5s; }
-    #r { animation-delay: 1s; }
-    #i { animation-delay: 1.5s; }
-    #s { animation-delay: 2s; }
-    #h { animation-delay: 2.5s; }
-    #n { animation-delay: 3s; }
-    #a { animation-delay: 3.5s; }
+    #K { animation-delay: 0.1s; }
+    #r { animation-delay: 0.2s; }
+    #i { animation-delay: 0.3s; }
+    #s { animation-delay: 0.4s; }
+    #h { animation-delay: 0.5s; }
+    #n { animation-delay: 0.6s; }
+    #a { animation-delay: 0.7s; }
   </style>
   <text id="K" x="20" y="60">K</text>
   <text id="r" x="80" y="60">r</text>
