@@ -1,17 +1,25 @@
-<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
   <style>
     text {
-      font-family: 'Segoe Script', cursive; 
-      font-size: 64px;
-      fill: #87CEEB; 
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+      fill: #000080; /* Navy blue color */
       opacity: 0;
-      animation: fadeIn 1s ease forwards;
-      text-anchor: middle; 
+      animation: fadeIn 2s ease forwards;
+      text-anchor: middle;
     }
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
     }
   </style>
+  
+  <!-- Krishna Text -->
   <text x="50%" y="100">Krishna</text>
+  
+  <!-- Singh Text -->
+  <text x="50%" y="150">Singh</text>
+  
+  <!-- Chouhan Text -->
+  <text x="50%" y="200">Chouhan</text>
 </svg>
