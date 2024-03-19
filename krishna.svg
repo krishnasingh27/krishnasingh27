@@ -1,38 +1,29 @@
-<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
   <style>
     text {
-      font-family: Arial, sans-serif;
-      font-size: 48px;
-      fill: #FFA500;
+      font-family: 'Dancing Script', cursive;
+      font-size: 64px;
+      fill: #4CAF50;
       opacity: 0;
-      animation: bounceIn 0.75s ease forwards;
+      animation: fadeIn 1s ease forwards;
     }
-    @keyframes bounceIn {
-      0% {
-        opacity: 0;
-        transform: translateY(-100%);
-      }
-      50% {
-        transform: translateY(20%);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
-    #K { animation-delay: 0.1s; }
-    #r { animation-delay: 0.2s; }
-    #i { animation-delay: 0.3s; }
-    #s { animation-delay: 0.4s; }
-    #h { animation-delay: 0.5s; }
-    #n { animation-delay: 0.6s; }
-    #a { animation-delay: 0.7s; }
+    #K { animation-delay: 0.5s; }
+    #r { animation-delay: 1s; }
+    #i { animation-delay: 1.5s; }
+    #s { animation-delay: 2s; }
+    #h { animation-delay: 2.5s; }
+    #n { animation-delay: 3s; }
+    #a { animation-delay: 3.5s; }
   </style>
-  <text id="K" x="20" y="60">K</text>
-  <text id="r" x="80" y="60">r</text>
-  <text id="i" x="140" y="60">i</text>
-  <text id="s" x="180" y="60">s</text>
-  <text id="h" x="220" y="60">h</text>
-  <text id="n" x="280" y="60">n</text>
-  <text id="a" x="320" y="60">a</text>
+  <text id="K" x="20" y="100">K</text>
+  <text id="r" x="100" y="100">r</text>
+  <text id="i" x="170" y="100">i</text>
+  <text id="s" x="240" y="100">s</text>
+  <text id="h" x="310" y="100">h</text>
+  <text id="n" x="400" y="100">n</text>
+  <text id="a" x="480" y="100">a</text>
 </svg>
