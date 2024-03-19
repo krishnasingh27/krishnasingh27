@@ -1,29 +1,17 @@
 <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    text {
-      font-family: 'Dancing Script', cursive;
-      font-size: 64px;
-      fill: #4CAF50;
-      opacity: 0;
-      animation: fadeIn 1s ease forwards;
-    }
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-    #K { animation-delay: 0.5s; }
-    #r { animation-delay: 1s; }
-    #i { animation-delay: 1.5s; }
-    #s { animation-delay: 2s; }
-    #h { animation-delay: 2.5s; }
-    #n { animation-delay: 3s; }
-    #a { animation-delay: 3.5s; }
-  </style>
-  <text id="K" x="20" y="100">K</text>
-  <text id="r" x="100" y="100">r</text>
-  <text id="i" x="170" y="100">i</text>
-  <text id="s" x="240" y="100">s</text>
-  <text id="h" x="310" y="100">h</text>
-  <text id="n" x="400" y="100">n</text>
-  <text id="a" x="480" y="100">a</text>
+  <defs>
+    <mask id="a">
+      <rect width="100%" height="100%" fill="#fff"/>
+      <text x="50%" y="50%" dy=".35em" font-size="230" font-family="Segoe Script" font-weight="400" text-anchor="middle" aria-label="Krishna Singh Chouhan">Krishna Singh Chouhan</text>
+    </mask>
+  </defs>
+  <g mask="url(#a)" transform="translate(82 480)" fill="#1F61A5" stroke="#FFF" stroke-width=".25" font-size="64" font-family="'Dancing Script', cursive" font-weight="400" display="block" text-anchor="middle">
+    <text id="K" x="20" y="0">K</text>
+    <text id="r" x="100" y="0">r</text>
+    <text id="i" x="170" y="0">i</text>
+    <text id="s" x="240" y="0">s</text>
+    <text id="h" x="310" y="0">h</text>
+    <text id="n" x="400" y="0">n</text>
+    <text id="a" x="480" y="0">a</text>
+  </g>
 </svg>
