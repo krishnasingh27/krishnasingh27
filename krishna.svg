@@ -2,45 +2,45 @@
   <style>
     text {
       font-family: 'Pacifico', cursive;
-      font-size: 50px;
-      fill: #000080; /* Navy blue color */
-      opacity: 0;
-      animation: fadeIn 2s ease forwards;
+      font-size: 80px;
+      fill: #87CEEB; /* Sky blue color */
       text-anchor: middle;
+      opacity: 0;
+      animation: fadeIn 2s forwards;
     }
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
     }
-    .firework {
-      fill: #FFD700; /* Gold color */
-      opacity: 0;
-      animation: explode 2s ease infinite;
-      transform-origin: center;
+    #K {
+      animation-delay: 0.2s;
     }
-    @keyframes explode {
-      0%, 100% { transform: scale(0); opacity: 0; }
-      50% { opacity: 1; }
+    #r {
+      animation-delay: 0.4s;
+    }
+    #i {
+      animation-delay: 0.6s;
+    }
+    #s {
+      animation-delay: 0.8s;
+    }
+    #h {
+      animation-delay: 1s;
+    }
+    #n {
+      animation-delay: 1.2s;
+    }
+    #a {
+      animation-delay: 1.4s;
     }
   </style>
   
   <!-- Krishna Text -->
-  <text x="350" y="100">Krishna</text>
-  
-  <!-- Singh Text -->
-  <text x="550" y="100">Singh</text>
-  
-  <!-- Fireworks -->
-  <!-- Firework 1 -->
-  <circle class="firework" cx="150" cy="120" r="5">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Firework 2 -->
-  <circle class="firework" cx="450" cy="120" r="5">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
-  </circle>
-  <!-- Firework 3 -->
-  <circle class="firework" cx="750" cy="120" r="5">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="1s"/>
-  </circle>
+  <text id="K" x="12.5%" y="120">K</text>
+  <text id="r" x="25%" y="120">r</text>
+  <text id="i" x="37.5%" y="120">i</text>
+  <text id="s" x="50%" y="120">s</text>
+  <text id="h" x="62.5%" y="120">h</text>
+  <text id="n" x="75%" y="120">n</text>
+  <text id="a" x="87.5%" y="120">a</text>
 </svg>
