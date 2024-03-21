@@ -36,11 +36,11 @@
   </style>
   
   <!-- Krishna Text -->
-  <text id="K" x="12.5%" y="120">K</text>
-  <text id="r" x="25%" y="120">r</text>
-  <text id="i" x="37.5%" y="120">i</text>
-  <text id="s" x="50%" y="120">s</text>
-  <text id="h" x="62.5%" y="120">h</text>
-  <text id="n" x="75%" y="120">n</text>
-  <text id="a" x="87.5%" y="120">a</text>
+  <text id="K" x="13%" y="120">K</text>
+  <text id="r" x="26%" y="120">r</text>
+  <text id="i" x="39%" y="120">i</text>
+  <text id="s" x="52%" y="120">s</text>
+  <text id="h" x="65%" y="120">h</text>
+  <text id="n" x="78%" y="120">n</text>
+  <text id="a" x="91%" y="120">a</text>
 </svg>
